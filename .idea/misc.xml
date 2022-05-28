@@ -6,13 +6,22 @@
         <entry key="app/src/main/res/drawable/background_btn_shape.xml" value="0.1495" />
         <entry key="app/src/main/res/drawable/background_image.xml" value="0.1495" />
         <entry key="app/src/main/res/drawable/background_input_shape.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/background_message_received_shape.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/background_message_sent_shape.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/background_message_shape.xml" value="0.1495" />
         <entry key="app/src/main/res/drawable/ic_account.xml" value="0.1495" />
-        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.16621376811594202" />
+        <entry key="app/src/main/res/drawable/ic_back_arrow.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/ic_send_message.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/text_background_white_shape.xml" value="0.1495" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_contacts.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_setting.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/receive_card.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/send_card.xml" value="0.33" />
         <entry key="app/src/main/res/layout/users_card.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/menu/chat_menu.xml" value="0.33" />
       </map>

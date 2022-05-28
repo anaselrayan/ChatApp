@@ -9,14 +9,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChatApp">
         <activity
-            android:name=".ChatActivity"
+            android:name=".activities.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ChatActivity"
             android:exported="false" />
         <activity
             android:name=".activities.ProfileActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/MainActivityTheme" />
         <activity
             android:name=".activities.MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/MainActivityTheme" />
         <activity
             android:name=".activities.ContactsActivity"
             android:exported="false" />

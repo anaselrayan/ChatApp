@@ -18,6 +18,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginStart="10dp"
+            app:civ_border_width="2dp"
             android:background="@drawable/image_background"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"

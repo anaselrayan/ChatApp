@@ -126,6 +126,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(MainActivity.this, SignInActivity.class));
             finish();
         }
+        if (item.getItemId() == R.id.mi_settings) {
+            startActivity(new Intent(MainActivity.this, SettingActivity.class));
+        }
         return super.onOptionsItemSelected(item);
     }
 }

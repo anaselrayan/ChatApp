@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
@@ -28,6 +29,7 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.ViewHolder> 
 
     List<String> usersList;
     String userName;
+    String otherName;
     Context context;
 
     FirebaseDatabase database;
@@ -58,7 +60,7 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.ViewHolder> 
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
 
-                        String otherName = (String) snapshot.child("user_name").getValue();
+                        otherName = (String) snapshot.child("user_name").getValue();
                         String imageURL = (String) snapshot.child("image").getValue();
 
                         holder.tv_nameCard.setText(otherName);
@@ -74,6 +76,8 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.ViewHolder> 
                                 Intent intent = new Intent(context, ChatActivity.class);
                                 intent.putExtra("userName", userName);
                                 intent.putExtra("otherName", otherName);
+
+//                                Toast.makeText(context, userName + " " + otherName, Toast.LENGTH_SHORT).show();
                                 context.startActivity(intent);
                             }
                         });

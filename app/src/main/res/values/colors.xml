@@ -10,4 +10,8 @@
     <color name="error">#FF0000</color>
     <color name="white">#FFFFFF</color>
     <color name="card_username">#16173A</color>
+    <color name="message_sent_background">#B4FFB7</color>
+    <color name="message_received_background">#FFC9DC</color>
+    <color name="chat_background">#9F9797</color>
+
 </resources>
