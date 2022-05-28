@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "899538916456",
+    "project_id": "chatapp-a3e45",
+    "storage_bucket": "chatapp-a3e45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899538916456:android:489d3d406cbaae7028d7dd",
+        "android_client_info": {
+          "package_name": "fci.university.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899538916456-bel2jvp4i81jamq4236e2p5d3ubb2gil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMAh1v_O6VVgSe9i8tsE1LmM38RVcfFcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899538916456-bel2jvp4i81jamq4236e2p5d3ubb2gil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

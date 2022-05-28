@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Chat App</string>
+    <string name="sign_in_welcome">Welcome to ChatApp</string>
+</resources>

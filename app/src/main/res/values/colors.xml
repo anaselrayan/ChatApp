@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#176FB5</color>
+    <color name="primary_dark">#2196F3</color>
+    <color name="primary_text">#1C1923</color>
+    <color name="secondary_text">#3C3942</color>
+    <color name="black">#FF000000</color>
+    <color name="input_background">#E6E5E5</color>
+    <color name="image_background">#CDC4C4</color>
+    <color name="error">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="card_username">#16173A</color>
+</resources>
